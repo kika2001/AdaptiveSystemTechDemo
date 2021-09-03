@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/InputMaster.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/_InputMaster/InputMaster.inputactions'
 
 using System;
 using System.Collections;
@@ -54,6 +54,22 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""name"": ""Reload"",
                     ""type"": ""Button"",
                     ""id"": ""1e0b82d9-2b53-4c45-9fca-0b9fc74dc28c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""DifficultUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""69924881-9a19-493d-9fad-862e6dfd3cf5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""DifficultDown"",
+                    ""type"": ""Button"",
+                    ""id"": ""e632514e-02b1-42f0-98cb-46f3d48373c5"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -158,6 +174,28 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""action"": ""Reload"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ca883862-117e-4ef9-a95f-db5aba1da170"",
+                    ""path"": ""<Keyboard>/o"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DifficultUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3be38371-946f-434a-81a1-60d5295642a2"",
+                    ""path"": ""<Keyboard>/l"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DifficultDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -188,6 +226,8 @@ public class @InputMaster : IInputActionCollection, IDisposable
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Reload = m_Player.FindAction("Reload", throwIfNotFound: true);
+        m_Player_DifficultUp = m_Player.FindAction("DifficultUp", throwIfNotFound: true);
+        m_Player_DifficultDown = m_Player.FindAction("DifficultDown", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -242,6 +282,8 @@ public class @InputMaster : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Reload;
+    private readonly InputAction m_Player_DifficultUp;
+    private readonly InputAction m_Player_DifficultDown;
     public struct PlayerActions
     {
         private @InputMaster m_Wrapper;
@@ -251,6 +293,8 @@ public class @InputMaster : IInputActionCollection, IDisposable
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @Reload => m_Wrapper.m_Player_Reload;
+        public InputAction @DifficultUp => m_Wrapper.m_Player_DifficultUp;
+        public InputAction @DifficultDown => m_Wrapper.m_Player_DifficultDown;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -275,6 +319,12 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Reload.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnReload;
                 @Reload.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnReload;
                 @Reload.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnReload;
+                @DifficultUp.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDifficultUp;
+                @DifficultUp.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDifficultUp;
+                @DifficultUp.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDifficultUp;
+                @DifficultDown.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDifficultDown;
+                @DifficultDown.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDifficultDown;
+                @DifficultDown.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDifficultDown;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -294,6 +344,12 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Reload.started += instance.OnReload;
                 @Reload.performed += instance.OnReload;
                 @Reload.canceled += instance.OnReload;
+                @DifficultUp.started += instance.OnDifficultUp;
+                @DifficultUp.performed += instance.OnDifficultUp;
+                @DifficultUp.canceled += instance.OnDifficultUp;
+                @DifficultDown.started += instance.OnDifficultDown;
+                @DifficultDown.performed += instance.OnDifficultDown;
+                @DifficultDown.canceled += instance.OnDifficultDown;
             }
         }
     }
@@ -314,5 +370,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
         void OnReload(InputAction.CallbackContext context);
+        void OnDifficultUp(InputAction.CallbackContext context);
+        void OnDifficultDown(InputAction.CallbackContext context);
     }
 }

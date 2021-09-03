@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Ricardo Teixeira\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ricardo Teixeira\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AdaptiveSystem.986314300.00" t="ExcludeRecursive" />
+    <e p="H:\Universidade\Unity\DJ3D\AdaptiveGame\AdaptiveGameTechDemo\AdaptiveSystem" t="IncludeRecursive">
+      <e p="AdaptiveSystem.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_InputMaster" t="Include">
+          <e p="InputMaster.cs" t="Include" />
+        </e>
+        <e p="_ObjectPool" t="Include">
+          <e p="ObjectPool.cs" t="Include" />
+          <e p="PooledObject.cs" t="Include" />
+        </e>
+        <e p="_Scripts" t="Include">
+          <e p="AdaptiveSystemVisualizer.cs" t="Include" />
+          <e p="Door.cs" t="Include" />
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="EnemyStatsTest.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="FlickLight.cs" t="Include" />
+          <e p="Fps" t="Include">
+            <e p="BodyPart.cs" t="Include" />
+            <e p="BulletHole.cs" t="Include" />
+            <e p="Destructible.cs" t="Include" />
+            <e p="EnemyHealth.cs" t="Include" />
+            <e p="FpsController.cs" t="Include" />
+            <e p="HealthSystem.cs" t="Include" />
+            <e p="ITakeDamage.cs" t="Include" />
+            <e p="PlayerHealthSystem.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+            <e p="WeaponStatsVisualizer.cs" t="Include" />
+          </e>
+          <e p="RatioVisualizer.cs" t="Include" />
+          <e p="Room.cs" t="Include" />
+          <e p="RoomManager.cs" t="Include" />
+          <e p="RoomSensor.cs" t="Include" />
+        </e>
+        <e p="AdaptiveSystem" t="Include">
+          <e p="AdaptiveSystemManager.cs" t="Include" />
+          <e p="Data.cs" t="Include" />
+        </e>
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WarFX" t="Include">
+            <e p="!WarFX Readme.txt" t="Include" />
+            <e p="_Effects" t="Include">
+              <e p="MuzzleFlashes" t="Include">
+                <e p="!MuzzleFlash Differences.txt" t="Include" />
+              </e>
+            </e>
+            <e p="_Effects (Mobile)" t="Include">
+              <e p="MuzzleFlashes" t="Include">
+                <e p="!MuzzleFlash Differences.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Demo" t="Include">
+              <e p="Assets" t="Include">
+                <e p="CFX_AutoStopLoopedEffect.cs" t="Include" />
+                <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                <e p="CFX_Demo_Translate.cs" t="Include" />
+                <e p="WFX_Demo.cs" t="Include" />
+                <e p="WFX_Demo_DeleteAfterDelay.cs" t="Include" />
+                <e p="WFX_Demo_New.cs" t="Include" />
+                <e p="WFX_Demo_RandomDir.cs" t="Include" />
+                <e p="WFX_Demo_Wall.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="CFX_SpawnSystemEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+              <e p="CFX_LightIntensityFade.cs" t="Include" />
+              <e p="WFX_BulletHoleDecal.cs" t="Include" />
+              <e p="WFX_LightFlicker.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="WFX_S Add Scroll.shader" t="Include" />
+              <e p="WFX_S Alpha-Diffuse TintColor.shader" t="Include" />
+              <e p="WFX_S Alpha-Specular TintColor.shader" t="Include" />
+              <e p="WFX_S AlphaBlend NoSoftParticles.shader" t="Include" />
+              <e p="WFX_S AlphaBlend Scroll.shader" t="Include" />
+              <e p="WFX_S Multiply Soft Scroll.shader" t="Include" />
+              <e p="WFX_S Multiply Soft.shader" t="Include" />
+              <e p="WFX_S Particle Add A8.shader" t="Include" />
+              <e p="WFX_S Particle AddSoft A8.shader" t="Include" />
+              <e p="WFX_S Particle Multiply A8.shader" t="Include" />
+              <e p="WFX_S Smoke Scroll.shader" t="Include" />
+            </e>
+            <e p="Spawn System" t="Include">
+              <e p="CFX_SpawnSystem.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="LitJson" t="Include">
+          <e p="IJsonWrapper.cs" t="Include" />
+          <e p="JsonData.cs" t="Include" />
+          <e p="JsonException.cs" t="Include" />
+          <e p="JsonMapper.cs" t="Include" />
+          <e p="JsonMockWrapper.cs" t="Include" />
+          <e p="JsonReader.cs" t="Include" />
+          <e p="JsonWriter.cs" t="Include" />
+          <e p="Lexer.cs" t="Include" />
+          <e p="Netstandard15Polyfill.cs" t="Include" />
+          <e p="ParserToken.cs" t="Include" />
+        </e>
+        <e p="Low Poly Guns" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="GunsMenu.cs" t="Include" />
+            <e p="GunView.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PrefabLightmapData.cs" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Thirdparty" t="Include">
+          <e p="NavMeshLink.cs" t="Include" />
+          <e p="NavMeshModifier.cs" t="Include" />
+          <e p="NavMeshModifierVolume.cs" t="Include" />
+          <e p="NavMeshSurface.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
