@@ -10,7 +10,7 @@ namespace AdaptiveSystemDemo.Health
     {
         [SerializeField] private float deadTime=1f;
         private bool isDead = false;
-        [SerializeField] private EnemyStatsTest stats;
+        [SerializeField] private EnemyMovement movement;
         [SerializeField] private NavMeshAgent agent;
         [SerializeField] private Animator animator;
         [SerializeField] private AudioSource audioSource;
@@ -18,7 +18,7 @@ namespace AdaptiveSystemDemo.Health
         public override void OnEnable()
         {
             base.OnEnable();
-            stats.enabled = true;
+            movement.enabled = true;
             agent.enabled = true;
             animator.SetBool("dead",false);
             animator.speed = agent.speed/3.5f;
@@ -48,7 +48,7 @@ namespace AdaptiveSystemDemo.Health
         {
             if (isDead) yield break;
             isDead = true;
-            stats.enabled = false;
+            movement.enabled = false;
             agent.enabled = false;
             animator.SetBool("dead",true);
             audioSource.Pause();

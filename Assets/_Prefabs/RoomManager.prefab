@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 254239354005295645}
   - component: {fileID: 9085254174658141483}
-  - component: {fileID: 9085254174658141484}
   m_Layer: 0
   m_Name: RoomManager
   m_TagString: Untagged
@@ -44,21 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0864ee912a648b8aec9ae30ebd51663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pool: {fileID: 9085254174658141484}
-  boxSize: 19
-  amountEachSide: 3
-  enemySpawner: {fileID: 0}
+  rooms:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentRoom: {fileID: 0}
---- !u!114 &9085254174658141484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9085254174658141482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfe220e616af94d4bb72491d99ef9c9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 4508497914815867436, guid: bb37d998d0b9eaf458b0b8a05aa4f9db, type: 3}

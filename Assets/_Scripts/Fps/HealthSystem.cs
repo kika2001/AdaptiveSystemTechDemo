@@ -1,14 +1,17 @@
 using System;
+using AdaptiveSystemDemo.Character;
 using AdaptiveSystemDemo.Weapon;
 using UnityEngine;
+using UnityEngine.VFX;
 
 namespace AdaptiveSystemDemo.Health
 {
     public class HealthSystem : MonoBehaviour, ITakeDamage
     {
+        
         [SerializeField]protected int maxHealth;
         [SerializeField]protected int currentHealth;
-        [SerializeField]protected ParticleSystem hitParticle;
+        //[SerializeField]protected ParticleSystem hitParticle;
         public delegate void dgOnDie();
         protected event dgOnDie evOnDie;
 
@@ -40,10 +43,11 @@ namespace AdaptiveSystemDemo.Health
         public virtual void TakeDamage(int amount, RaycastHit hitpoint)
         {
             Health -= amount;
-            hitParticle.transform.forward = hitpoint.normal;
-            hitParticle.transform.position = hitpoint.point;
+            BloodParticle.particle.transform.forward = (transform.position - hitpoint.point).normalized;
+            BloodParticle.particle.transform.position = hitpoint.point;
         
-            hitParticle.Play();
+            BloodParticle.particle.Play();
+            BloodParticle.instance.PlayBloodSound(hitpoint.point);
             if (Health==0)
             {
                 evOnDie?.Invoke();

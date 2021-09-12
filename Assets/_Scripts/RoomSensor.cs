@@ -42,7 +42,7 @@ namespace AdaptiveSystemDemo.RoomManagement
                 room.manager.currentRoom=room;
             }else if (other.CompareTag("Enemy"))
             {
-                Debug.LogWarning($"Enemy : {other.gameObject}");
+                //Debug.LogWarning($"Enemy : {other.gameObject}");
                 AddEnemies(other.transform.parent.gameObject);
             }
         }

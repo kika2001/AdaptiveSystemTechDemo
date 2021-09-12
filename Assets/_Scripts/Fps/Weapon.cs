@@ -104,7 +104,7 @@ namespace AdaptiveSystemDemo.Weapon
                     } 
                 } else
                 {
-                    Debug.Log("Out of Bullets. Reloading!");
+                    //Debug.Log("Out of Bullets. Reloading!");
                     if (!weaponAudio.isPlaying)
                     {
                         weaponAudio.PlayOneShot(emptySound,0.7f);
@@ -123,25 +123,25 @@ namespace AdaptiveSystemDemo.Weapon
     }
     private void HandleHit(RaycastHit hit)
     {
-        Debug.Log("Shoot Something");
+        //Debug.Log("Shoot Something");
         StartCoroutine(FireRate());
         var crit = (Random.Range(0, 101) < critChance);
         var tempDamage = (crit)? Convert.ToInt32( damage*critMultiplier): damage;
-        Debug.LogWarning($"TempDamage : {tempDamage}");
+        //Debug.LogWarning($"TempDamage : {tempDamage}");
         if (aimHit.transform.GetComponent<Destructible>())
         {
-            Debug.Log("Destructible Object");
+            //Debug.Log("Destructible Object");
             aimHit.transform.GetComponent<ITakeDamage>().TakeDamage(tempDamage,hit);
             SpawnBulletHole();
         }else if (aimHit.transform.GetComponents<MonoBehaviour>().Count(d => d is ITakeDamage)>0)
         {
-            Debug.Log("HealthSystem Object");
+            //Debug.Log("HealthSystem Object");
             aimHit.transform.GetComponent<ITakeDamage>().TakeDamage(tempDamage,hit);
             shotsHit++;
         }
         else
         {
-            Debug.Log("Chao");
+            //Debug.Log("Chao");
             SpawnBulletHole();
         }
         currentBullets--;

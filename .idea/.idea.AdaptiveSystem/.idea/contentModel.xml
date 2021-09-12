@@ -18,8 +18,8 @@
         <e p="_Scripts" t="Include">
           <e p="AdaptiveSystemVisualizer.cs" t="Include" />
           <e p="Door.cs" t="Include" />
+          <e p="EnemyMovement.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />
-          <e p="EnemyStatsTest.cs" t="Include" />
           <e p="Extensions.cs" t="Include" />
           <e p="FlickLight.cs" t="Include" />
           <e p="Fps" t="Include">
@@ -34,6 +34,7 @@
             <e p="Weapon.cs" t="Include" />
             <e p="WeaponStatsVisualizer.cs" t="Include" />
           </e>
+          <e p="PrefabLightmapData.cs" t="Include" />
           <e p="RatioVisualizer.cs" t="Include" />
           <e p="Room.cs" t="Include" />
           <e p="RoomManager.cs" t="Include" />
@@ -43,6 +44,8 @@
           <e p="AdaptiveSystemManager.cs" t="Include" />
           <e p="Data.cs" t="Include" />
         </e>
+        <e p="BloodParticle.cs" t="Include" />
+        <e p="EnemyAttack.cs" t="Include" />
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX Easy Editor" t="Include">
             <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
@@ -120,7 +123,7 @@
             <e p="GunView.cs" t="Include" />
           </e>
         </e>
-        <e p="PrefabLightmapData.cs" t="Include" />
+        <e p="ReturnMe.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
