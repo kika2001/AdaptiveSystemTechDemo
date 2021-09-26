@@ -12,6 +12,7 @@ public class EnemyAttack : MonoBehaviour
     [SerializeField] private float distanceToAttack;
     [SerializeField] private int damage;
     [SerializeField] private int betweenAttacksTime;
+    [SerializeField] private EnemyHealth enemyHealth;
     [SerializeField] private LayerMask playerMask;
     [SerializeField] private CinemachineImpulseSource _impulseSource;
     [SerializeField] private AudioClip idleClip;
@@ -37,13 +38,26 @@ public class EnemyAttack : MonoBehaviour
     {
         if (other.gameObject == PlayerHealthSystem.instance.gameObject)
         {
-            if (canAttack)
+            if (canAttack && !enemyHealth.isDead)
             {
                 GiveDamage();
             }
             
         }
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject == PlayerHealthSystem.instance.gameObject)
+        {
+            if (canAttack && !enemyHealth.isDead)
+            {
+                GiveDamage();
+            }
+            
+        }
+    }
+
 
     private void GiveDamage()
     {
@@ -72,7 +86,7 @@ public class EnemyAttack : MonoBehaviour
         _audioSource.Stop();
         var sound = attackSounds[Random.Range(0, attackSounds.Count)];
         _audioSource.PlayOneShot(sound);
-        StartCoroutine(ResetSound(sound.length));
+        //StartCoroutine(ResetSound(sound.length));
     }
 
     private IEnumerator ResetSound(float time)

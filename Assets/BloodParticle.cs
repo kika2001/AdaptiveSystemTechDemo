@@ -24,5 +24,11 @@ public class BloodParticle : MonoBehaviour
         obj.transform.position = pos;
         obj.GetComponent<AudioSource>().Play();
     }
+    void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("PlayingSound");
+        PlayBloodSound(other.transform.position);
+    }
+    
     
 }

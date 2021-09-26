@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using AdaptiveS.System;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Random = UnityEngine.Random;
@@ -10,36 +11,44 @@ using Random = UnityEngine.Random;
 namespace AdaptiveSystemDemo.Weapon
 {
     public class Weapon : MonoBehaviour
-{
-    //Tracking Data
-    private int shotsFired;
-    private int shotsHit;
-    //Tracking Data
-    private InputMaster controls;
-    [Header("Bullet Holes Pool")]
-    [SerializeField] private ObjectPool bulletHoleObjectPool;
+    {
+        //Tracking Data
+        private int shotsFired;
 
-    [Header("Weapon Stats")]
-    [SerializeField] private float fireRate;
-    [SerializeField] private int maxBullets;
-    [SerializeField] private int currentBullets;
-    [SerializeField] private int damage;
-    [Range(0,100)]
-    [SerializeField] private int critChance;
-    [SerializeField] private float critMultiplier;
-    [SerializeField] private LayerMask shootLayer;
-    private float reloadTime;
-    private bool canShoot;
-    private bool shooting;
-    
-    [Header("Visual Stuff")]
-    [SerializeField] private ParticleSystem muzzleFlashFx;
-    [SerializeField] private ParticleSystem muzzleExplosionFx;
-    [SerializeField] private AudioSource weaponAudio;
-    [SerializeField] private AudioClip shootSound, emptySound, reloadSound;
-    [SerializeField] private Animator weaponAnimator;
-    [SerializeField] private FlickLight flickLight;
-    private RaycastHit aimHit;
+        private int shotsHit;
+
+        //Tracking Data
+        private InputMaster controls;
+
+        [Header("Bullet Holes Pool")] [SerializeField]
+        private ObjectPool bulletHoleObjectPool;
+
+        [Header("Weapon Stats")] [SerializeField]
+        private float fireRate;
+
+        [SerializeField] private int maxBullets;
+        [SerializeField] private int currentBullets;
+        [SerializeField] private int damage;
+        [Range(0, 100)] [SerializeField] private int critChance;
+        [SerializeField] private float critMultiplier;
+        [SerializeField] private LayerMask shootLayer;
+        private float reloadTime;
+        private bool canShoot;
+        private bool shooting;
+        [SerializeField] private float trailMinimuxDistance = 1f;
+
+        [Header("Visual Stuff")] [SerializeField]
+        private ParticleSystem muzzleFlashFx;
+
+        [SerializeField] private ParticleSystem muzzleExplosionFx;
+        [SerializeField] private AudioSource weaponAudio;
+        [SerializeField] private AudioClip shootSound, emptySound, reloadSound;
+        [SerializeField] private Animator weaponAnimator;
+        [SerializeField] private FlickLight flickLight;
+        [SerializeField] private ParticleSystem bulletTray;
+        [SerializeField] private CinemachineImpulseSource cinemachineImpulseSource;
+
+        private RaycastHit aimHit;
     
     public WeaponStatus weaponStatus;
 
@@ -87,6 +96,7 @@ namespace AdaptiveSystemDemo.Weapon
                     shotsFired++;
                     muzzleFlashFx.Play();
                     muzzleExplosionFx.Play();
+                    
                     weaponAudio.PlayOneShot(shootSound,0.7f);
                     weaponStatus = WeaponStatus.Shooting;
                     
@@ -96,12 +106,22 @@ namespace AdaptiveSystemDemo.Weapon
                     {
                         HandleHit(aimHit);
                         
+                        bulletTray.transform.LookAt(aimHit.point);
+                        
                     }
                     else
                     {
                         StartCoroutine(FireRate());
                         currentBullets--;
-                    } 
+                        bulletTray.transform.eulerAngles = Vector3.zero;
+                    }
+
+                    if (aimHit.distance>trailMinimuxDistance)
+                    {
+                        bulletTray.Play();
+                    }
+                    cinemachineImpulseSource.GenerateImpulse();
+                    
                 } else
                 {
                     //Debug.Log("Out of Bullets. Reloading!");

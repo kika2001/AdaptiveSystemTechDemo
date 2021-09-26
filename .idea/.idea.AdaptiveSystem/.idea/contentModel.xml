@@ -18,8 +18,9 @@
         <e p="_Scripts" t="Include">
           <e p="AdaptiveSystemVisualizer.cs" t="Include" />
           <e p="Door.cs" t="Include" />
+          <e p="DungeonManager.cs" t="Include" />
+          <e p="EndScreen.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
-          <e p="EnemySpawner.cs" t="Include" />
           <e p="Extensions.cs" t="Include" />
           <e p="FlickLight.cs" t="Include" />
           <e p="Fps" t="Include">
@@ -45,6 +46,7 @@
           <e p="Data.cs" t="Include" />
         </e>
         <e p="BloodParticle.cs" t="Include" />
+        <e p="Button3D.cs" t="Include" />
         <e p="EnemyAttack.cs" t="Include" />
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX Easy Editor" t="Include">
@@ -123,6 +125,8 @@
             <e p="GunView.cs" t="Include" />
           </e>
         </e>
+        <e p="MainMenu.cs" t="Include" />
+        <e p="MoveDolly.cs" t="Include" />
         <e p="ReturnMe.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -161,6 +165,9 @@
           <e p="NavMeshModifierVolume.cs" t="Include" />
           <e p="NavMeshSurface.cs" t="Include" />
         </e>
+        <e p="ThrowBlood.cs" t="Include" />
+        <e p="ToggleButtons.cs" t="Include" />
+        <e p="UI3DCanvas.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

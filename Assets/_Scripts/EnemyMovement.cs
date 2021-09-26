@@ -6,6 +6,7 @@ using AdaptiveSystemDemo.Health;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace AdaptiveSystemDemo.Enemy
 {
@@ -21,8 +22,8 @@ namespace AdaptiveSystemDemo.Enemy
     private Rigidbody rb;
     [SerializeField] private TextMeshPro text;
 
-    [Header("TestMovement")] [SerializeField]
-    private NavMeshAgent agent;
+    [Header("TestMovement")] 
+    public NavMeshAgent agent;
 
     private Vector3 playerPos;
     private AdaptiveSystem adaptiveSystem;
@@ -50,7 +51,7 @@ namespace AdaptiveSystemDemo.Enemy
                     $"Position Reaction Time:<color=#3aeb34>{positionUpdateMultiplier}</color>\n" +
                     $"Movement Speed:<color=#3aeb34>{movementSpeed}</color>" +
                     $"Ratio with multiplied:<color=#3aeb34>{AdaptiveSystemManager.GetCurrentWantedRatio(adaptiveSystem)}</color> ";
-        agent.speed = movementSpeed;
+        agent.speed = movementSpeed + Random.Range(-2.0f,2.0f);
         agent.acceleration = 8f+ movementSpeed;
         //agent.angularSpeed = aimReactionTime;
     }

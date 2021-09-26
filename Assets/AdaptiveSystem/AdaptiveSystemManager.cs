@@ -9,7 +9,7 @@ namespace AdaptiveS.System
         private static Dictionary<string, AdaptiveSystem> systems = new Dictionary<string, AdaptiveSystem>();
 
         /// <summary>
-        /// Add a new Adaptive System to the manager. If doesnt exists with that name, returns the existing one, otherwise, creates a new one
+        /// Add a new Adaptive System to the manager. If exists with that name, returns the existing one, otherwise, creates a new one
         /// </summary>
         /// <param name="systemName">Name of the system</param>
         public static AdaptiveSystem NewAdaptiveSystem(string systemName)
@@ -48,8 +48,7 @@ namespace AdaptiveS.System
         /// <param name="currentValue">Current value of the Data</param>
         /// <param name="referenceValue">Reference value of the Data</param>
         /// <param name="system">Adaptive system which will be added</param>
-        public static void AddDataToAnalyse(string name, float currentValue, float referenceValue,
-            AdaptiveSystem system)
+        public static void AddDataToAnalyse(string name, float currentValue, float referenceValue, AdaptiveSystem system)
         {
             name = name.ToLower();
             if (!system.dados.ContainsKey(name))
@@ -67,8 +66,7 @@ namespace AdaptiveS.System
         /// <param name="currentValue">Current value of the Data</param>
         /// <param name="referenceValue">Reference valye of the Data</param>
         /// <param name="system">Adaptive system which will be added</param>
-        public static void AddDataToAnalyse<T>(this T variable, float currentValue, float referenceValue,
-            AdaptiveSystem system) where T : struct
+        public static void AddDataToAnalyse<T>(this T variable, float currentValue, float referenceValue, AdaptiveSystem system) where T : struct
         {
             var name = variable.ToString().ToLower();
             if (!system.dados.ContainsKey(name))
@@ -139,8 +137,7 @@ namespace AdaptiveS.System
         /// <param name="referenceValue">Reference value of the Data</param>
         /// <param name="system"> Adaptive system where the data will be updated</param>
         /// <typeparam name="T"></typeparam>
-        public static void UpdateInfo<T>(this T variable, float currentValue, float referenceValue,
-            AdaptiveSystem system)
+        public static void UpdateInfo<T>(this T variable, float currentValue, float referenceValue, AdaptiveSystem system)
         {
             var name = variable.ToString().ToLower();
             if (system.dados.ContainsKey(name))
@@ -300,7 +297,6 @@ namespace AdaptiveS.System
     }
 
 
-    [Serializable]
     public class AdaptiveSystem
     {
         public string nameIdentifier;

@@ -1653,8 +1653,8 @@ MonoBehaviour:
   maxHealth: 50
   currentHealth: 50
   deadTime: 1
+  isDead: 0
   movement: {fileID: 2217761917707999251}
-  agent: {fileID: 1758716941424792228}
   animator: {fileID: 4017167523495611931}
   audioSource: {fileID: 2289175135188832263}
   hit: {fileID: 8300000, guid: d196ff138479e3444b9adeb147b7fe3d, type: 3}
@@ -1695,6 +1695,7 @@ MonoBehaviour:
   distanceToAttack: 2
   damage: 10
   betweenAttacksTime: 1
+  enemyHealth: {fileID: 4287058808657425229}
   playerMask:
     serializedVersion: 2
     m_Bits: 4096
@@ -2058,7 +2059,7 @@ AudioSource:
   m_GameObject: {fileID: 5513873595893133112}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 2009606394015185125, guid: a042c54827f0f2a4091e37e23c756edc, type: 2}
   m_audioClip: {fileID: 8300000, guid: e579466eb6fb67943a1d58d94dd131be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

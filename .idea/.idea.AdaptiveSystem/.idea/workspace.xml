@@ -20,99 +20,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ecee238-1f73-44cc-9b08-645ee9f45bf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/EndScreen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/EndScreen.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PrefabLightmapData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PrefabLightmapData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BloodParticle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BloodParticle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_CinemachineStuff/Impulses/AttackImpulse.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_CinemachineStuff/Impulses/AttackImpulse.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Materials/MaterialsAmbient/CatacombsWall/CatacomWall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/MaterialsAmbient/CatacombsWall/CatacomWall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Materials/MaterialsAmbient/MedievalBlocks/MedievalBlock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/MaterialsAmbient/MedievalBlocks/MedievalBlock.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Materials/MaterialsAmbient/StoneFloor/StoneFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/MaterialsAmbient/StoneFloor/StoneFloor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Props/Barrel/BarrelTexture/textures/Arnold 5_4K/Old_barrel_Arnold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Props/Barrel/BarrelTexture/textures/Arnold 5_4K/Old_barrel_Arnold.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Props/Bench/Bench.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Props/Bench/Bench.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Props/Door/Door01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Props/Door/Door01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Props/Prefabs/Barrel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Props/Prefabs/Barrel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Props/Ropes/rust_mid/ChainRust.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Props/Ropes/rust_mid/ChainRust.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Props/Skull/Skull.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Props/Skull/Skull.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Scary Zombie Pack/parasitezombie_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Scary Zombie Pack/parasitezombie_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Torch/Charcoal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Torch/Charcoal.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Torch/Metal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Torch/Metal.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Model/Scary Zombie Pack/Dead.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Scary Zombie Pack/Dead.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Drops.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Drops.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Enemy.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/EnemyV2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/EnemyV2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Room01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Room01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/RoomManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/RoomManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/SpawnEnemies.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/SpawnEnemies.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/TorchWithBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/TorchWithBase.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-1.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-2.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-3.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-3.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-4.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-4.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-5.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-5.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-6.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-6.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-7.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-7.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-8.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-8.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Prefabs.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Prefabs.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemyStatsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemyStatsTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/bloodAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/bloodAS.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/vfx_Blood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/vfx_Blood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Global Volume Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Global Volume Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/OcclusionCullingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/OcclusionCullingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-10.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-10.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-2.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-2.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-3.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-3.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-4.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-4.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-5.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-5.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-6.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-6.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-7.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-7.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-8.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-8.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-9.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-9.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/EnemyHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/HealthSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/HealthSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/PlayerHealthSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/PlayerHealthSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RoomSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RoomSensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Shaders/Blood Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Shaders/Blood Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Shaders/Blood.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Shaders/Blood.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Slider/GameSkill/gameSkillSlider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Slider/GameSkill/gameSkillSlider.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/blood.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Sprites/blood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RoomManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,10 +179,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Core/AxisState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ReturnMe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BloodParticle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC14D30A-5E05-40EE-9311-ED6DF63D9074/db/037f42c5/PlayModeView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Button3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Core/CinemachinePathBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ToggleButtons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E81E1-CB34-41CC-97D2-6B1910DAAE77/b4/bfb35bdb/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,7 +200,6 @@
         <option value="$PROJECT_DIR$/Assets/Room.cs" />
         <option value="$PROJECT_DIR$/Assets/FlickLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Door.cs" />
-        <option value="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/AdaptiveSystem/Data.cs" />
         <option value="$PROJECT_DIR$/Assets/RatioVisualizer.cs" />
         <option value="$PROJECT_DIR$/Assets/AdaptiveSystem/Test/EnemySpawner.cs" />
@@ -157,16 +218,26 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/RoomSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/KillMe.cs" />
         <option value="$PROJECT_DIR$/Assets/ReturnMe.cs" />
-        <option value="$PROJECT_DIR$/Assets/BloodParticle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/PlayerHealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnemyStatsTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/MoveDolly.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI3DCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Button3D.cs" />
+        <option value="$PROJECT_DIR$/Assets/ToggleButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/BloodParticle.cs" />
+        <option value="$PROJECT_DIR$/Assets/ThrowBlood.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Fps/PlayerHealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/RoomManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/EndScreen.cs" />
       </list>
     </option>
   </component>
@@ -236,6 +307,15 @@
       <workItem from="1631285726300" duration="10557000" />
       <workItem from="1631476826805" duration="1913000" />
       <workItem from="1631481415374" duration="3801000" />
+      <workItem from="1631557225888" duration="1989000" />
+      <workItem from="1631734140126" duration="2752000" />
+      <workItem from="1631751447042" duration="4963000" />
+      <workItem from="1631806990295" duration="9468000" />
+      <workItem from="1631837811137" duration="2491000" />
+      <workItem from="1631879711853" duration="12178000" />
+      <workItem from="1631995733383" duration="2791000" />
+      <workItem from="1632069657663" duration="595000" />
+      <workItem from="1632487685748" duration="325000" />
     </task>
     <servers />
   </component>
@@ -260,78 +340,78 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="436" height="464" key="DebuggerActiveHint" timestamp="1624357128823">
+    <state width="578" height="464" key="DebuggerActiveHint" timestamp="1631815590704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="436" height="464" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624357128823" />
-    <state width="1875" height="140" key="GridCell.Tab.0.bottom" timestamp="1624380888268">
+    <state width="578" height="464" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631815590704" />
+    <state width="1875" height="140" key="GridCell.Tab.0.bottom" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888268" />
-    <state width="1875" height="140" key="GridCell.Tab.0.center" timestamp="1624380888268">
+    <state width="1875" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.0.center" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888268" />
-    <state width="1875" height="140" key="GridCell.Tab.0.left" timestamp="1624380888268">
+    <state width="1875" height="140" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.0.left" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888268" />
-    <state width="1875" height="140" key="GridCell.Tab.0.right" timestamp="1624380888268">
+    <state width="1875" height="140" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.0.right" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888268" />
-    <state width="1875" height="140" key="GridCell.Tab.1.bottom" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.1.bottom" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.1.center" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.1.center" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.1.left" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.1.left" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.1.right" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.1.right" timestamp="1631822586079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.2.bottom" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586079" />
+    <state width="1875" height="140" key="GridCell.Tab.2.bottom" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.2.center" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.2.center" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.2.left" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.2.left" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.2.right" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.2.right" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.3.bottom" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.3.bottom" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.3.center" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.3.center" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.3.left" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.3.left" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state width="1875" height="140" key="GridCell.Tab.3.right" timestamp="1624380888269">
+    <state width="1875" height="140" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state width="1875" height="140" key="GridCell.Tab.3.right" timestamp="1631822586080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="140" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1624380888269" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1631484811546">
+    <state width="1875" height="140" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631822586080" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1631841948387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631484811546" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631841948387" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630681994507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,42 +422,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs</url>
-          <line>192</line>
+          <line>201</line>
           <properties documentPath="H:\Universidade\Unity\DJ3D\AdaptiveGame\AdaptiveGameTechDemo\AdaptiveSystem\Assets\_Scripts\Fps\FpsController.cs" initialLine="130">
             <startOffsets>
-              <option value="5010" />
+              <option value="5312" />
             </startOffsets>
             <endOffsets>
-              <option value="5011" />
+              <option value="5313" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs</url>
-          <line>69</line>
-          <properties documentPath="H:\Universidade\Unity\DJ3D\AdaptiveGame\AdaptiveGameTechDemo\AdaptiveSystem\Assets\_Scripts\Fps\FpsController.cs" initialLine="61">
-            <startOffsets>
-              <option value="1788" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1789" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs</url>
-          <line>74</line>
-          <properties documentPath="H:\Universidade\Unity\DJ3D\AdaptiveGame\AdaptiveGameTechDemo\AdaptiveSystem\Assets\_Scripts\Fps\FpsController.cs" initialLine="66">
-            <startOffsets>
-              <option value="1847" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1848" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

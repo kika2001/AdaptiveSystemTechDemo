@@ -18,10 +18,13 @@ namespace AdaptiveSystemDemo.Character
 		[SerializeField] private Transform headTransform;
 		private Vector3 targetCameraPosition;
 		float verticalLookRotation;
-		
-		[Header("Movement")]
+
+		[Header("Movement")] 
+		private float currentSpeed;
 		public float walkSpeed = 10.0f;
+		public float runningSpeed=12.0f;
 		public float jumpForce = 250.0f;
+		private bool isrunning;
 		bool grounded;
 		public LayerMask groundedMask;
 		Vector3 moveAmount;
@@ -59,6 +62,7 @@ namespace AdaptiveSystemDemo.Character
 			controls.Player.Look.Enable();
 			controls.Player.Jump.Enable();
 			controls.Player.Jump.performed += Jump;
+			controls.Player.Run.Enable();
 		}
 
 		private void Start()
@@ -97,14 +101,15 @@ namespace AdaptiveSystemDemo.Character
 			verticalLookRotation += controls.Player.Look.ReadValue<Vector2>().y  * mouseSensitivityY * Time.deltaTime;
 			verticalLookRotation = Mathf.Clamp (verticalLookRotation, -90, 90);
 			cameraT.localEulerAngles = Vector3.left * verticalLookRotation;
-			
-			
-			
-			
+
+
+
+			isrunning = (controls.Player.Run.ReadValue<float>()>0)? true: false;
 			// movement
 			//Vector3 moveDir = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical")).normalized;
+			currentSpeed = (isrunning && grounded) ? runningSpeed : walkSpeed;
 			Vector3 moveDir = new Vector3 (controls.Player.Movement.ReadValue<Vector2>().x, 0, controls.Player.Movement.ReadValue<Vector2>().y).normalized;
-			Vector3 targetMoveAmount = moveDir * walkSpeed;
+			Vector3 targetMoveAmount = moveDir * currentSpeed;
 			moveAmount = Vector3.SmoothDamp (moveAmount, targetMoveAmount, ref smoothMoveVelocity, .15f);
 
 			
@@ -128,6 +133,10 @@ namespace AdaptiveSystemDemo.Character
 				isWalking = true;
 				walkingTime += Time.deltaTime;
 			}
+			else
+			{
+				isWalking = false;
+			}
 
 			if (isWalking)
 			{
@@ -141,7 +150,7 @@ namespace AdaptiveSystemDemo.Character
 		
 		private void PlaySteps()
 		{
-			var timeBetweenSteps = 1/(walkSpeed/eachStepTravelDistance);
+			var timeBetweenSteps = 1/(currentSpeed/eachStepTravelDistance);
 			if (Time.time>=stepLastTimePlayed+timeBetweenSteps)
 			{
 				isLeft = !isLeft;
@@ -167,7 +176,7 @@ namespace AdaptiveSystemDemo.Character
 
 		private Vector3 CalculateHeadBobOffset(float t)
 		{
-			bobFrequency = walkSpeed;
+			bobFrequency = currentSpeed;
 			float horizontalOffset = 0;
 			float verticalOffset = 0;
 			Vector3 offset = Vector3.zero;
