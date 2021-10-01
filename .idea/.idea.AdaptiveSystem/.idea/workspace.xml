@@ -20,155 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ecee238-1f73-44cc-9b08-645ee9f45bf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/EndScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/EndScreen.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BloodParticle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BloodParticle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_CinemachineStuff/Impulses/AttackImpulse.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_CinemachineStuff/Impulses/AttackImpulse.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_InputMaster/InputMaster.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Model/Scary Zombie Pack/Dead.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Model/Scary Zombie Pack/Dead.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Drops.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Drops.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Enemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Enemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/EnemyV2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/EnemyV2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/RoomManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/RoomManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/SpawnEnemies.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/SpawnEnemies.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/bloodAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/bloodAS.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/vfx_Blood.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/vfx_Blood.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Global Volume Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Global Volume Profile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-10_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-11_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-3_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-4_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-5_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-6_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-7_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-8_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/Lightmap-9_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/OcclusionCullingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/OcclusionCullingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-1.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-1.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-10.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-10.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-2.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-2.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-3.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-3.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-4.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-4.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-5.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-5.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-6.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-6.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-7.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-7.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-8.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-8.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-9.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Dungeon/ReflectionProbe-9.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnemySpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/FpsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/PlayerHealthSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/PlayerHealthSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Fps/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Fps/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RoomManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,8 +90,8 @@
         <option value="$PROJECT_DIR$/Assets/AdaptiveSystem/AdaptiveSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/RoomManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EndScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/DungeonManager.cs" />
       </list>
     </option>
   </component>
@@ -316,6 +170,7 @@
       <workItem from="1631995733383" duration="2791000" />
       <workItem from="1632069657663" duration="595000" />
       <workItem from="1632487685748" duration="325000" />
+      <workItem from="1632963477717" duration="638000" />
     </task>
     <servers />
   </component>

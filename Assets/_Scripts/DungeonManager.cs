@@ -85,9 +85,7 @@ namespace AdaptiveSystemDemo.Enemy
 
         private void SpawnEnemies()
         {
-            enemiesThisWave = (enemiesPerWave * wave) +
-                              (int) Mathf.CeilToInt(AdaptiveSystemManager.CalculateValue(adaptiveSystem, extraEnemies.x,
-                                  extraEnemies.y, true)) + wave;
+            enemiesThisWave = (enemiesPerWave * wave) + (int) Mathf.CeilToInt(AdaptiveSystemManager.CalculateValue(adaptiveSystem, extraEnemies.x, extraEnemies.y, true)) + wave;
             var spawns = roomManager.GetRandomSpawns(enemiesThisWave);
             foreach (var spawn in spawns)
             {
