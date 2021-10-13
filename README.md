@@ -3,7 +3,7 @@
 An adaptive game/dynamic game difficulty balancing is a system in games which adapts to the gameplay style of the player giving him a better experience or at least more challenging.
 Some games use this system to change the narrative, which is very common in interactive storytelling where you can choose the path and take certain actions which use karma or similar features.
 ## Type of system which this system is based
-The Adaptive system was created based on the DDA system (Dynamic Difficulty Adaptation) because its a concept easy to use when talking about small data to be analysed. The system uses a ratio for difficulty, where each player will have a different difficulty depending on how good they are. 
+The Adaptive system was created based on the DDA system (Dynamic Difficulty Adaptation) because its a concept easy to use when talking about small data to be analyzed. The system uses a ratio for difficulty, where each player will have a different difficulty depending on how good they are. 
 Player with low skill playing on hard will have it more easy than pro players playing on hard, but both will have difficulties because it adapts to their skill.
 ## Why?
 I wanted to make this system because it can be very helpful to make the game playable for players with different skill levels. When players dont feel anxious because the game is to challenging for their skill, or when they dont feel bored due to the game being too easy for their skill, they stay on the flow zone. This zone is ideal to keep the player motivated to play the game.
